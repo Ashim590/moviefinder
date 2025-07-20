@@ -1,0 +1,25 @@
+.pagination-container {
+  display: flex;
+  justify-content: center; /* Centers the pagination component */
+  margin-top: 20px; /* Optional: Add some space above the pagination */
+}
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.page-item.active .page-link {
+  background-color: #007bff;
+  color: white;
+}
